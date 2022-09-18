@@ -1,0 +1,16 @@
+{
+  "printWidth": 150,
+  "overrides": [
+    {
+      "files": [
+        "*.js",
+        "*.json",
+        "*.html"
+      ],
+      "options": {
+        "proseWrap": "never",
+        "tabWidth": 4
+      }
+    }
+  ]
+}

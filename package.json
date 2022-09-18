@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build": "next build && next export",
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.12.2",
     "next": "^12.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -17,6 +18,7 @@
   "devDependencies": {
     "eslint": "^8.23.1",
     "eslint-config-next": "^12.3.0",
-    "eslint-config-prettier": "^8.5.0"
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
   }
 }
