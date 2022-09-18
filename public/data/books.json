@@ -1,1 +1,164 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Killing Floor",
+    "isbn": "0-515-12344-7",
+    "published": "1997-03"
+  },
+  {
+    "id": 2,
+    "title": "Die Trying",
+    "isbn": "0-399-14379-3",
+    "published": "1998-07"
+  },
+  {
+    "id": 3,
+    "title": "Tripwire",
+    "isbn": "0-515-14307-3",
+    "published": "1999-07"
+  },
+  {
+    "id": 4,
+    "title": "Running Blind",
+    "isbn": "978-0-515-14350-8",
+    "published": "2000-04"
+  },
+  {
+    "id": 5,
+    "title": "Echo Burning",
+    "isbn": "0-515-13331-0",
+    "published": "2001-04"
+  },
+  {
+    "id": 6,
+    "title": "Without Fail",
+    "isbn": "978-0-515-14431-4",
+    "published": "2002-04"
+  },
+  {
+    "id": 7,
+    "title": "Persuader",
+    "isbn": "978-0-440-24598-8",
+    "published": "2003-04"
+  },
+  {
+    "id": 8,
+    "title": "The Enemy",
+    "isbn": "0-553-81585-7",
+    "published": "2004-04"
+  },
+  {
+    "id": 9,
+    "title": "One Shot",
+    "isbn": "0-385-33668-3",
+    "published": "2005-04"
+  },
+  {
+    "id": 10,
+    "title": "The Hard Way",
+    "isbn": "0-385-33669-1",
+    "published": "2006-05"
+  },
+  {
+    "id": 11,
+    "title": "Bad Luck and Trouble",
+    "isbn": "0-385-34055-9",
+    "published": "2007-04"
+  },
+  {
+    "id": 12,
+    "title": "Nothing to Lose",
+    "isbn": "978-059-305702-5",
+    "published": "2008-03"
+  },
+  {
+    "id": 13,
+    "title": "Gone Tomorrow",
+    "isbn": "978-0-440-24368-7",
+    "published": "2009-04"
+  },
+  {
+    "id": 14,
+    "title": "61 Hours",
+    "isbn": "978-0-440-24369-4",
+    "published": "2010-03"
+  },
+  {
+    "id": 15,
+    "title": "Worth Dying For",
+    "isbn": "978-0-385-34431-9",
+    "published": "2010-09"
+  },
+  {
+    "id": 16,
+    "title": "The Affair",
+    "isbn": "978-0-440-24630-5",
+    "published": "2011-09-27"
+  },
+  {
+    "id": 17,
+    "title": "A Wanted Man",
+    "isbn": "978-0-440-24631-2",
+    "published": "2012-09-11"
+  },
+  {
+    "id": 18,
+    "title": "Never Go Back",
+    "isbn": "978-0-593-06574-7",
+    "published": "2013-09-03"
+  },
+  {
+    "id": 19,
+    "title": "Personal",
+    "isbn": "978-0-5930-7382-7",
+    "published": "2014-08-28"
+  },
+  {
+    "id": 20,
+    "title": "Make Me",
+    "isbn": "978-0-8041-7877-8",
+    "published": "2015-09-08"
+  },
+  {
+    "id": 21,
+    "title": "Night School",
+    "isbn": "978-0804178808",
+    "published": "2016-11-08"
+  },
+  {
+    "id": 22,
+    "title": "The Midnight Line",
+    "isbn": "978-0-3995-9348-2",
+    "published": "2017-11-07"
+  },
+  {
+    "id": 23,
+    "title": "Past Tense",
+    "isbn": "978-0-399-59351-2",
+    "published": "2018-11-05"
+  },
+  {
+    "id": 24,
+    "title": "Blue Moon",
+    "isbn": "978-1-787-63027-7",
+    "published": "2019-10-29"
+  },
+  {
+    "id": 25,
+    "title": "The Sentinel",
+    "isbn": "978-1-984-81846-1",
+    "published": "2020-10-29"
+  },
+  {
+    "id": 26,
+    "title": "Better off Dead",
+    "isbn": "978-0-552-17752-8",
+    "published": "2021-10-26"
+  },
+  {
+    "id": 27,
+    "title": "No Plan B",
+    "isbn": "978-1-787-63375-9",
+    "published": "2022-10-25"
+  }
+]

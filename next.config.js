@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/jack-reachers-battlefield-map",
+  basePath: "/reachers-battlefield-map",
   reactStrictMode: true,
   swcMinify: true,
   compiler: {
