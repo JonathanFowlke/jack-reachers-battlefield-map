@@ -3,162 +3,413 @@
     "id": 1,
     "title": "Killing Floor",
     "isbn": "0-515-12344-7",
-    "published": "1997-03"
+    "published": "1997-03",
+    "occurred": "1997",
+    "publishOrder": 1,
+    "chronOrder": 9
   },
   {
     "id": 2,
     "title": "Die Trying",
     "isbn": "0-399-14379-3",
-    "published": "1998-07"
+    "published": "1998-07",
+    "occurred": "1998",
+    "publishOrder": 2,
+    "chronOrder": 10
   },
   {
     "id": 3,
     "title": "Tripwire",
     "isbn": "0-515-14307-3",
-    "published": "1999-07"
+    "published": "1999-07",
+    "occurred": "1999",
+    "publishOrder": 3,
+    "chronOrder": 11
   },
   {
     "id": 4,
-    "title": "Running Blind",
-    "isbn": "978-0-515-14350-8",
-    "published": "2000-04"
+    "title": "James Penney's New Identity",
+    "isbn": "978-1-488-06481-4",
+    "published": "1999-10",
+    "occurred": "1992",
+    "publishOrder": 4,
+    "chronOrder": 6,
+    "short": true
   },
   {
     "id": 5,
-    "title": "Echo Burning",
-    "isbn": "0-515-13331-0",
-    "published": "2001-04"
+    "title": "Running Blind",
+    "isbn": "978-0-515-14350-8",
+    "published": "2000-04",
+    "occurred": "2000",
+    "publishOrder": 5,
+    "chronOrder": 12
   },
   {
     "id": 6,
-    "title": "Without Fail",
-    "isbn": "978-0-515-14431-4",
-    "published": "2002-04"
+    "title": "Echo Burning",
+    "isbn": "0-515-13331-0",
+    "published": "2001-04",
+    "occurred": "2001",
+    "publishOrder": 6,
+    "chronOrder": 13
   },
   {
     "id": 7,
-    "title": "Persuader",
-    "isbn": "978-0-440-24598-8",
-    "published": "2003-04"
+    "title": "Without Fail",
+    "isbn": "978-0-515-14431-4",
+    "published": "2002-04",
+    "occurred": "2002",
+    "publishOrder": 7,
+    "chronOrder": 14
   },
   {
     "id": 8,
-    "title": "The Enemy",
-    "isbn": "0-553-81585-7",
-    "published": "2004-04"
+    "title": "Persuader",
+    "isbn": "978-0-440-24598-8",
+    "published": "2003-04",
+    "occurred": "2003",
+    "publishOrder": 8,
+    "chronOrder": 15
   },
   {
     "id": 9,
-    "title": "One Shot",
-    "isbn": "0-385-33668-3",
-    "published": "2005-04"
+    "title": "The Enemy",
+    "isbn": "0-553-81585-7",
+    "published": "2004-04",
+    "occurred": "1990",
+    "publishOrder": 9,
+    "chronOrder": 5
   },
   {
     "id": 10,
-    "title": "The Hard Way",
-    "isbn": "0-385-33669-1",
-    "published": "2006-05"
+    "title": "One Shot",
+    "isbn": "0-385-33668-3",
+    "published": "2005-04",
+    "occurred": "2005",
+    "publishOrder": 10,
+    "chronOrder": 16
   },
   {
     "id": 11,
-    "title": "Bad Luck and Trouble",
-    "isbn": "0-385-34055-9",
-    "published": "2007-04"
+    "title": "The Hard Way",
+    "isbn": "0-385-33669-1",
+    "published": "2006-05",
+    "occurred": "2006",
+    "publishOrder": 11,
+    "chronOrder": 17
   },
   {
     "id": 12,
-    "title": "Nothing to Lose",
-    "isbn": "978-059-305702-5",
-    "published": "2008-03"
+    "title": "Bad Luck and Trouble",
+    "isbn": "0-385-34055-9",
+    "published": "2007-04",
+    "occurred": "2007",
+    "publishOrder": 12,
+    "chronOrder": 18
   },
   {
     "id": 13,
-    "title": "Gone Tomorrow",
-    "isbn": "978-0-440-24368-7",
-    "published": "2009-04"
+    "title": "Nothing to Lose",
+    "isbn": "9780440337805",
+    "published": "2008-03",
+    "occurred": "2008",
+    "publishOrder": 13,
+    "chronOrder": 19
   },
   {
     "id": 14,
-    "title": "61 Hours",
-    "isbn": "978-0-440-24369-4",
-    "published": "2010-03"
+    "title": "Gone Tomorrow",
+    "isbn": "978-0-440-24368-7",
+    "published": "2009-04",
+    "occurred": "2009",
+    "publishOrder": 14,
+    "chronOrder": 21
   },
   {
     "id": 15,
-    "title": "Worth Dying For",
-    "isbn": "978-0-385-34431-9",
-    "published": "2010-09"
+    "title": "Guy Walks Into a Bar",
+    "isbn": "",
+    "published": "2009-06-06",
+    "occurred": "2009",
+    "publishOrder": 15,
+    "chronOrder": 20,
+    "short": true
   },
   {
     "id": 16,
-    "title": "The Affair",
-    "isbn": "978-0-440-24630-5",
-    "published": "2011-09-27"
+    "title": "61 Hours",
+    "isbn": "978-0-440-24369-4",
+    "published": "2010-03",
+    "occurred": "2010",
+    "publishOrder": 16,
+    "chronOrder": 22
   },
   {
     "id": 17,
-    "title": "A Wanted Man",
-    "isbn": "978-0-440-24631-2",
-    "published": "2012-09-11"
+    "title": "Worth Dying For",
+    "isbn": "978-0-385-34431-9",
+    "published": "2010-09",
+    "occurred": "2010",
+    "publishOrder": 17,
+    "chronOrder": 23
   },
   {
     "id": 18,
-    "title": "Never Go Back",
-    "isbn": "978-0-593-06574-7",
-    "published": "2013-09-03"
+    "title": "Second Son",
+    "isbn": "978-0-345-52972-5",
+    "published": "2011-08",
+    "occurred": "1974",
+    "publishOrder": 18,
+    "chronOrder": 1,
+    "short": true
   },
   {
     "id": 19,
-    "title": "Personal",
-    "isbn": "978-0-5930-7382-7",
-    "published": "2014-08-28"
+    "title": "The Affair",
+    "isbn": "978-0-440-24630-5",
+    "published": "2011-09-27",
+    "occurred": "1997",
+    "publishOrder": 19,
+    "chronOrder": 8
   },
   {
     "id": 20,
-    "title": "Make Me",
-    "isbn": "978-0-8041-7877-8",
-    "published": "2015-09-08"
+    "title": "Everyone Talks",
+    "isbn": "",
+    "published": "2012-06",
+    "occurred": "2010",
+    "publishOrder": 20,
+    "chronOrder": 25,
+    "short": true
   },
   {
     "id": 21,
-    "title": "Night School",
-    "isbn": "978-0804178808",
-    "published": "2016-11-08"
+    "title": "Deep Down",
+    "isbn": "978-0-345-53710-2",
+    "published": "2012-07",
+    "occurred": "1986",
+    "publishOrder": 21,
+    "chronOrder": 3,
+    "short": true
   },
   {
     "id": 22,
-    "title": "The Midnight Line",
-    "isbn": "978-0-3995-9348-2",
-    "published": "2017-11-07"
+    "title": "A Wanted Man",
+    "isbn": "978-0-440-24631-2",
+    "published": "2012-09-11",
+    "occurred": "2010",
+    "publishOrder": 22,
+    "chronOrder": 24
   },
   {
     "id": 23,
-    "title": "Past Tense",
-    "isbn": "978-0-399-59351-2",
-    "published": "2018-11-05"
+    "title": "High Heat",
+    "isbn": "978-0-345-54664-7",
+    "published": "2013-08",
+    "occurred": "1977",
+    "publishOrder": 23,
+    "chronOrder": 2,
+    "short": true
   },
   {
     "id": 24,
-    "title": "Blue Moon",
-    "isbn": "978-1-787-63027-7",
-    "published": "2019-10-29"
+    "title": "Never Go Back",
+    "isbn": "978-0-593-06574-7",
+    "published": "2013-09-03",
+    "occurred": "2010",
+    "publishOrder": 24,
+    "chronOrder": 26
   },
   {
     "id": 25,
-    "title": "The Sentinel",
-    "isbn": "978-1-984-81846-1",
-    "published": "2020-10-29"
+    "title": "Not a Drill",
+    "isbn": "978-1-473-51055-5",
+    "published": "2014-07",
+    "occurred": "2014",
+    "publishOrder": 25,
+    "chronOrder": 27,
+    "short": true
   },
   {
     "id": 26,
-    "title": "Better off Dead",
-    "isbn": "978-0-552-17752-8",
-    "published": "2021-10-26"
+    "title": "Personal",
+    "isbn": "9780804178761",
+    "published": "2014-08-28",
+    "occurred": "2014",
+    "publishOrder": 26,
+    "chronOrder": 28
   },
   {
     "id": 27,
+    "title": "Good and Valuable Consideration",
+    "isbn": "978-1-476-78879-1",
+    "published": "2014-09",
+    "occurred": "2014",
+    "publishOrder": 27,
+    "chronOrder": 29,
+    "short": true
+  },
+  {
+    "id": 28,
+    "title": "The Picture of the Lonely Diner",
+    "isbn": "",
+    "published": "2015-06",
+    "occurred": "2015",
+    "publishOrder": 28,
+    "chronOrder": 30,
+    "short": true
+  },
+  {
+    "id": 29,
+    "title": "No Room at the Motel",
+    "isbn": "",
+    "published": "2015-07",
+    "occurred": "2015",
+    "publishOrder": 29,
+    "chronOrder": 31,
+    "short": true
+  },
+  {
+    "id": 30,
+    "title": "Small Wars",
+    "isbn": "9780804178846",
+    "published": "2015-08",
+    "occurred": "1989",
+    "publishOrder": 30,
+    "chronOrder": 4,
+    "short": true
+  },
+  {
+    "id": 31,
+    "title": "Make Me",
+    "isbn": "978-0-8041-7877-8",
+    "published": "2015-09-08",
+    "occurred": "2015",
+    "publishOrder": 31,
+    "chronOrder": 32
+  },
+  {
+    "id": 32,
+    "title": "Night School",
+    "isbn": "9780804178815",
+    "published": "2016-11-08",
+    "occurred": "1996",
+    "publishOrder": 32,
+    "chronOrder": 7
+  },
+  {
+    "id": 33,
+    "title": "Maybe They Have a Tradition",
+    "isbn": "",
+    "published": "2016-12",
+    "occurred": "2016",
+    "publishOrder": 33,
+    "chronOrder": 34,
+    "short": true
+  },
+  {
+    "id": 34,
+    "title": "Too Much Time",
+    "isbn": "9781473562653",
+    "published": "2017-05",
+    "occurred": "2017",
+    "publishOrder": 34,
+    "chronOrder": 35,
+    "short": true
+  },
+  {
+    "id": 35,
+    "title": "Faking a Murderer",
+    "isbn": "9781982139575",
+    "published": "2017-06",
+    "occurred": "2017",
+    "publishOrder": 35,
+    "chronOrder": 36,
+    "short": true
+  },
+  {
+    "id": 36,
+    "title": "The Midnight Line",
+    "isbn": "978-0-3995-9348-2",
+    "published": "2017-11-07",
+    "occurred": "2015",
+    "publishOrder": 36,
+    "chronOrder": 33
+  },
+  {
+    "id": 37,
+    "title": "The Christmas Scorpion",
+    "isbn": "9781984818454",
+    "published": "2018-10",
+    "occurred": "2017",
+    "publishOrder": 37,
+    "chronOrder": 37,
+    "short": true
+  },
+  {
+    "id": 38,
+    "title": "Past Tense",
+    "isbn": "978-0-399-59351-2",
+    "published": "2018-11-05",
+    "occurred": "2018",
+    "publishOrder": 38,
+    "chronOrder": 38
+  },
+  {
+    "id": 39,
+    "title": "The Fourth Man",
+    "isbn": "9781473567023",
+    "published": "2019-03",
+    "occurred": "2019",
+    "publishOrder": 39,
+    "chronOrder": 39,
+    "short": true
+  },
+  {
+    "id": 40,
+    "title": "Cleaning the Gold",
+    "isbn": "9780062970220",
+    "published": "2019-05",
+    "occurred": "2019",
+    "publishOrder": 40,
+    "chronOrder": 40,
+    "short": true
+  },
+  {
+    "id": 41,
+    "title": "Blue Moon",
+    "isbn": "978-1-787-63027-7",
+    "published": "2019-10-29",
+    "occurred": "2019",
+    "publishOrder": 41,
+    "chronOrder": 41
+  },
+  {
+    "id": 42,
+    "title": "The Sentinel",
+    "isbn": "978-1-984-81846-1",
+    "published": "2020-10-29",
+    "occurred": "2020",
+    "publishOrder": 42,
+    "chronOrder": 42
+  },
+  {
+    "id": 43,
+    "title": "Better off Dead",
+    "isbn": "978-0-552-17752-8",
+    "published": "2021-10-26",
+    "occurred": "2021",
+    "publishOrder": 43,
+    "chronOrder": 43
+  },
+  {
+    "id": 44,
     "title": "No Plan B",
     "isbn": "978-1-787-63375-9",
-    "published": "2022-10-25"
+    "published": "2022-10-25",
+    "occurred": "",
+    "publishOrder": 44,
+    "chronOrder": null
   }
 ]

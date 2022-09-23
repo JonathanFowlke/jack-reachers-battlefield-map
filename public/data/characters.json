@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Jack Reacher",
+    "aka": [
+      "Reacher"
+    ],
+    "birthDate": "1960-10-29",
+    "nationality": "American",
+    "occupation": "Drifter",
+    "affiliated": "Former U.S. Army",
+    "rank": "Major",
+    "gender": "Male",
+    "height": "6'5\"",
+    "weight": "220-250lbs",
+    "hairColor": "Dirty Blond",
+    "eyeColor": "Blue"
+  }
+]

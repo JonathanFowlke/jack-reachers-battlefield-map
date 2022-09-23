@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "books",
+    "checksum": 1236520142
+  },
+  {
+    "id": 2,
+    "name": "characters",
+    "checksum": -2012199877
+  },
+  {
+    "id": 3,
+    "name": "events",
+    "checksum": 2914
+  },
+  {
+    "id": 4,
+    "name": "inventory",
+    "checksum": 2914
+  }
+]
