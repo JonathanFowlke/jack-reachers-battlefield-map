@@ -18,6 +18,7 @@ let contents = fileNames
         // fs.writeFileSync(`${workingDir}/${resultsFileName}`, JSON.stringify(contents, null, 2));
     });
 
+//TODO: re ID locations, events, etc...
 //TODO: add ids, add books cross references
 
 console.log("Success!");

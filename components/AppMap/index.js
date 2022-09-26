@@ -1,19 +1,23 @@
 import React from "react";
 import { GoogleMap } from "@react-google-maps/api";
+import { useMap } from "../MapProvider";
 
 const options = {
     disableDefaultUI: true,
+    center: { lat: 0, lng: 0 },
+    zoom: 2,
 };
 
 const containerStyle = {
     flex: "1 1 auto",
 };
 
-const AppMap = () => {
+const AppMap = ({ ...props }) => {
+    const { overlays } = useMap();
+
     return (
-        <GoogleMap options={options} center={{ lat: 0, lng: 0 }} zoom={2} mapContainerStyle={containerStyle}>
-            {/* Child components, such as markers, info windows, etc. */}
-            <></>
+        <GoogleMap options={options} mapContainerStyle={containerStyle} {...props}>
+            {overlays}
         </GoogleMap>
     );
 };

@@ -18,6 +18,10 @@ export const isObject = (obj) => obj === Object(obj);
 
 export const isFunction = (obj) => isType(obj, "function");
 
+export const isEmpty = (value) => isUndefined(value) || value === null || value === "" || (isNumber(value) && isNaN(value));
+
+export const isNotEmpty = (value) => !isEmpty(value);
+
 export const removeUndefined = (obj) => {
     Object.keys(obj).forEach((key) => isUndefined(obj[key]) && delete obj[key]);
     return obj;

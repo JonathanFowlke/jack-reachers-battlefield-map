@@ -3,16 +3,12 @@
     "id": 1,
     "city": "Margrave",
     "state": "Georgia",
-    "country": "USA",
+    "country": "US",
     "bounds": {
-      "northeast": {
-        "lat": 0,
-        "lng": 0
-      },
-      "southwest": {
-        "lat": 0,
-        "lng": 0
-      }
+      "south": 0,
+      "west": 0,
+      "north": 0,
+      "east": 0
     },
     "fictional": true
   },
@@ -20,7 +16,7 @@
     "id": 2,
     "description": "Junction to Margrave",
     "state": "Georgia",
-    "country": "USA",
+    "country": "US",
     "position": {
       "lat": 33.095564,
       "lng": -83.999014
@@ -30,5 +26,15 @@
   {
     "id": 3,
     "state": "Montana"
-  }
+  },
+  {
+    "id": 4,
+    "city": "Chicago",
+    "state": "Illinois",
+    "country": "US"
+  },
+  {
+    "id": 5,
+    "name": "Washington, DC"
+]  }
 ]
