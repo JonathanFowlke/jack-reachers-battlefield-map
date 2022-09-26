@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "city": "Margrave",
+    "state": "Georgia",
+    "country": "USA",
+    "bounds": {
+      "northeast": {
+        "lat": 0,
+        "lng": 0
+      },
+      "southwest": {
+        "lat": 0,
+        "lng": 0
+      }
+    },
+    "fictional": true
+  },
+  {
+    "id": 2,
+    "description": "Junction to Margrave",
+    "state": "Georgia",
+    "country": "USA",
+    "position": {
+      "lat": 33.095564,
+      "lng": -83.999014
+    },
+    "fictional": true
+  },
+  {
+    "id": 3,
+    "state": "Montana"
+  }
+]

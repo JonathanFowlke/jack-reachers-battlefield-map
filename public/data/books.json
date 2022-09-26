@@ -6,7 +6,10 @@
     "published": "1997-03",
     "occurred": "1997",
     "publishOrder": 1,
-    "chronOrder": 9
+    "chronOrder": 9,
+    "locations": [
+      1
+    ]
   },
   {
     "id": 2,
@@ -15,7 +18,12 @@
     "published": "1998-07",
     "occurred": "1998",
     "publishOrder": 2,
-    "chronOrder": 10
+    "chronOrder": 10,
+    "locations": [
+      3,
+      "Chicago",
+      "Washington D.C."
+    ]
   },
   {
     "id": 3,
@@ -24,7 +32,11 @@
     "published": "1999-07",
     "occurred": "1999",
     "publishOrder": 3,
-    "chronOrder": 11
+    "chronOrder": 11,
+    "locations": [
+      "Key West, FL",
+      "New York City"
+    ]
   },
   {
     "id": 4,

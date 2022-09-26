@@ -4,8 +4,9 @@ import { getBook } from "../googlebooks";
 import { removeUndefined } from "../utils";
 
 const loadDatabase = async (refresh = false) => {
-    const database = new Database("reacher", ["checksums", "books", "events", "characters", "inventory"]);
+    const database = new Database("reacher", ["checksums", "books", "events", "locations", "characters", "inventory"]);
     try {
+        let directionsService = new google.maps.DirectionsService();
         let latest = await fetchJson("/data/checksums.json");
         let stored = await database.getAll("checksums");
         await Promise.all(

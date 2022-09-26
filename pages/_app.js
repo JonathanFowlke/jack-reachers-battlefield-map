@@ -3,6 +3,7 @@ import Head from "next/head";
 import styled from "styled-components";
 import AppMap from "../components/AppMap";
 import loadDatabase from "../services/dataloader";
+import { useLoadScript } from "@react-google-maps/api";
 
 const Main = styled.main`
     position: relative;
@@ -14,14 +15,18 @@ const Main = styled.main`
 
 const MainApp = ({ Component, pageProps }) => {
     const [database, setDatabase] = useState(null);
-    const [isLoading, setLoading] = useState(true);
+
+    const { isLoaded } = useLoadScript({
+        googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_API_KEY,
+    });
 
     useEffect(() => {
-        loadDatabase().then((db) => {
-            setDatabase(db);
-            setLoading(false);
-        });
-    }, []);
+        if (isLoaded) {
+            loadDatabase().then((db) => {
+                setDatabase(db);
+            });
+        }
+    }, [isLoaded]);
 
     return (
         <>
@@ -30,8 +35,7 @@ const MainApp = ({ Component, pageProps }) => {
                 <title>{"Reacher's Battlefield Map"}</title>
             </Head>
             <Main>
-                {isLoading ? "Loading..." : "Loaded"}
-                <AppMap />
+                {isLoaded ? <AppMap /> : "Loading..."}
                 <Component {...pageProps} />
             </Main>
         </>
