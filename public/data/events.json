@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "book": 1,
     "chronOrder": 1,
     "description": "Soon after exiting from the U.S. Army, Reacher takes the express bus from Tampa to Atlanta, but convinces the driver to let him off about an hour south of Atlanta at the junction of the road that goes into Margrave.",
@@ -17,7 +16,6 @@
     }
   },
   {
-    "id": 2,
     "book": 1,
     "chronOrder": 2,
     "description": "Reacher walks 14 miles into town.",

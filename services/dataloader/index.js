@@ -3,8 +3,17 @@ import { fetchJson } from "../fetch";
 import { getBook } from "../googlebooks";
 import { isNotEmpty, removeUndefined } from "../utils";
 
+const tables = [
+    { name: "checksums" },
+    { name: "books", key: "id" },
+    { name: "events" },
+    { name: "locations", key: "id" },
+    { name: "characters", key: "id" },
+    { name: "inventory", key: "id" },
+];
+
 const loadDatabase = async (refresh = false) => {
-    const database = new Database("reacher", ["checksums", "books", "events", "locations", "characters", "inventory"]);
+    const database = new Database("reacher", tables);
     try {
         let latest = await fetchJson("/data/checksums.json");
         let stored = await database.getAll("checksums");

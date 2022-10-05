@@ -10,12 +10,11 @@ console.debug("Files found: ", fileNames);
 
 let contents = fileNames
     .filter((fileName) => fileName !== resultsFileName)
-    .map((fileName, index) => {
+    .map((fileName) => {
         let buffer = fs.readFileSync(`${workingDir}/${fileName}`);
         let file = buffer.toString();
         let value = checksum(file);
         return {
-            id: index + 1,
             name: path.parse(fileName).name,
             checksum: value,
         };

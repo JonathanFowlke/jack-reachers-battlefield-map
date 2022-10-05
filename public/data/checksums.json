@@ -1,26 +1,21 @@
 [
   {
-    "id": 1,
     "name": "books",
     "checksum": 1632851241
   },
   {
-    "id": 2,
     "name": "characters",
     "checksum": -2012199877
   },
   {
-    "id": 3,
     "name": "events",
     "checksum": 1633037122
   },
   {
-    "id": 4,
     "name": "inventory",
     "checksum": 2914
   },
   {
-    "id": 5,
     "name": "locations",
     "checksum": -2009345590
   }

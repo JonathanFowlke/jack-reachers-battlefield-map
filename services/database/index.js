@@ -1,12 +1,11 @@
-export const createDatabase = (databaseName, tableNames, keyPath = "id") => {
+export const createDatabase = (databaseName, tables) => {
     return new Promise((resolve, reject) => {
         let request = window.indexedDB.open(databaseName, 1);
         request.onupgradeneeded = (event) => {
             let db = event.target.result;
-            tableNames.forEach((tableName) => {
-                if (!db.objectStoreNames.contains(tableName)) {
-                    //TODO: get table specific keyPath
-                    db.createObjectStore(tableName, { keyPath });
+            tables.forEach((table) => {
+                if (!db.objectStoreNames.contains(table.name)) {
+                    db.createObjectStore(table.name, { keyPath: table.keyPath });
 
                     //TODO: create other indexes?
                 }
@@ -83,9 +82,9 @@ const handleCallbacks = (request, resolve, reject) => {
 };
 
 class Database {
-    constructor(databaseName, tableNames) {
+    constructor(databaseName, tables) {
         this.name = databaseName;
-        this.db = createDatabase(databaseName, tableNames);
+        this.db = createDatabase(databaseName, tables);
     }
 
     get(key, tableName) {

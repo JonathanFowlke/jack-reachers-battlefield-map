@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { useLoadScript } from "@react-google-maps/api";
 import DataProvider, { dataTables } from "../components/DataProvider";
 import MapProvider from "../components/MapProvider";
+import Banner from "../components/Banner";
 import AppMap from "../components/AppMap";
 import loadDatabase from "../services/dataloader";
 
@@ -13,6 +14,16 @@ const Main = styled.main`
     flex-direction: row;
     flex: 1 1 auto;
     overflow: hidden;
+`;
+
+//TODO: perhaps have as a splash while data loads and then animate to the side?
+const AppBanner = styled(Banner)`
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    pointer-events: none;
 `;
 
 const compileData = async (database) => {
@@ -63,6 +74,7 @@ const MainApp = ({ Component, pageProps }) => {
                     <title>{"Reacher's Battlefield Map"}</title>
                 </Head>
                 <Main>
+                    <AppBanner />
                     {isLoaded ? <AppMap onLoad={handleMapLoad} /> : "Loading..."}
                     <Component {...pageProps} />
                 </Main>
